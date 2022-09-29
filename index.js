@@ -13,10 +13,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Routes
-app.get('/', (req, res) => {
-  res.send('Hello World');
-});
-
 app.get('/status', (req, res) => {
   res.send('OK');
 });

@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // Routes
 app.get('/status', (req, res) => {
-  res.send('OK');
+  res.status(200).send('OK');
 });
 
 app.use('/artistas', artistasRoutes);

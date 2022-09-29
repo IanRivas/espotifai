@@ -1,0 +1,43 @@
+### Consigo TODOS los Artistas
+GET http://localhost:3030/artistas
+
+### Consigo un artista por ID
+GET http://localhost:3030/artistas/63338ba533b292a8249bdb6f
+
+### Agregar Artista
+POST  http://localhost:3030/artistas
+Content-Type: application/json
+
+{
+    "nombre": "Nirvana",
+    "seguidores": 1987,
+    "genero": "Grunge",
+    "imagen": "https://picsum.photos/200?v=1"
+}
+
+### Agregar Artista2
+POST  http://localhost:3030/artistas
+Content-Type: application/json
+
+{
+    "nombre": "Metallica",
+    "seguidores": 1987,
+    "genero": "Metal",
+    "imagen": "https://picsum.photos/200?v=2"
+}
+
+
+
+### Eliminar Artista
+DELETE http://localhost:3030/artistas/63338ba533b292a8249bdb6f
+
+### Actualizar Artista
+PUT http://localhost:3030/artistas/633390a2d52dbf740e42767b
+Content-Type: application/json
+
+{
+    "nombre": "Mana",
+    "seguidores": 1987,
+    "genero": "Rock",
+    "imagen": "https://picsum.photos/200?v=1"
+}

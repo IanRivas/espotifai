@@ -17,6 +17,10 @@ app.get('/', (req, res) => {
   res.send('Hello World');
 });
 
+app.get('/status', (req, res) => {
+  res.send('OK');
+});
+
 app.use('/artistas', artistasRoutes);
 
 app.all('/*', (req, res) => {

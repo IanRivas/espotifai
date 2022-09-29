@@ -13,6 +13,4 @@
 
 ### Link Api en produccion
 
-[Github Organization](https://www.google.com)
-
 https://paginadelservidor.com

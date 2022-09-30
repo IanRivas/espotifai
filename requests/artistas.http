@@ -1,11 +1,11 @@
 ### Consigo TODOS los Artistas
-GET http://localhost:3030/artistas
+GET https://espotifai-production.up.railway.app/artistas
 
 ### Consigo un artista por ID
 GET http://localhost:3030/artistas/63338ba533b292a8249bdb6f
 
 ### Agregar Artista
-POST  http://localhost:3030/artistas
+POST  https://espotifai-production.up.railway.app/artistas
 Content-Type: application/json
 
 {
@@ -16,7 +16,7 @@ Content-Type: application/json
 }
 
 ### Agregar Artista2
-POST  http://localhost:3030/artistas
+POST  https://espotifai-production.up.railway.app/artistas
 Content-Type: application/json
 
 {
